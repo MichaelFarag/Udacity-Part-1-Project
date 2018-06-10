@@ -1,0 +1,29 @@
+/*Ipad Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    body{ width: 95%}
+    .header__title h1 {font-size: 2em}
+    .content .portfolio__banner {width: 100%}
+    .section__title {letter-spacing: 3px}
+    .features__work {padding: 10px 0px}
+    .features__work a {font-size: 1.5em}
+    .features__work img {width: 100%}
+    }
+    
+    /*Nexus 5 Portrait and Landscape */
+    @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+    body, html {width: 90%}
+    .header {flex-wrap: wrap}
+    .header__logo {width: 100%;text-align: center}
+    .header__title { width: 100%;text-align: center}
+    .header__title h1 {font-size: 2em}
+    .content .portfolio__banner {width: 100%}
+    .section__title {letter-spacing: 3px;font-size: 1.5em;}
+    .features__work {padding: 10px 0px;flex-wrap: wrap}
+    .features__work .item1{width: 100%;padding-bottom: 10px}
+    .features__work .item2{width: 100%;padding-bottom: 10px}
+    .features__work .item3{width: 100%;padding-bottom: 10px}
+    .features__work a {font-size: 1.5em}
+    .features__work img {width: 100%}
+    }
+
+  
